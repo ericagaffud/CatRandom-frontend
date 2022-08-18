@@ -1,0 +1,16 @@
+.body2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 400px;
+    margin-top: 50%;
+  }
+  
+  .frame {
+    width: 500px;
+    padding: 45px;
+  }
+  
+  .framex {
+    transform: rotate(180deg);
+  }
