@@ -29,9 +29,101 @@
   }
 
   .network {
-    right: 120px;
-    top: 200px;
+    right: 100px;
+    top: 250px;
     position: absolute;
     width: 700px;
   }
+
+  .avatar{
+    width: 25%;
+    min-width: 50px;
+  }
   
+  .man1{
+    animation: animateMan1 2s forwards;
+  }
+
+  .man2{
+    animation: animateMan2 6s 1s forwards;
+  }
+
+  .lady1 {
+    animation: animateLady1 2s 2s forwards;
+  }
+
+  .lady2 {
+    animation: animateLady2 4s 3s forwards;
+  }
+
+  .lady3{
+    animation: animateLady3 2s 4s forwards;
+  }
+
+  @keyframes animateLady3 {
+    0%{
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(300%, 0);
+    }
+    100%{
+      transform: translate(300%, -150%);
+    }
+  }
+
+  @keyframes animateLady2 {
+    0%{
+      transform: translate(0, 0);
+    }
+    25%{
+      transform: translate(10%, 0);
+    }
+    50%{
+      transform: translate(10%, -200%);
+    }
+    100%{
+      transform: translate(-250%, -250%);
+    }
+  }
+
+  @keyframes animateMan2 {
+    0%{
+      transform: translate(0, 0);
+    }
+    20%{
+      transform: translate(-50%, 0);
+    }
+    50%{
+      transform: translate(-50%, -250%);
+    }
+    100%{
+      transform: translate(200%, -250%);
+    }
+  }
+
+  @keyframes animateLady1 {
+    0%{
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(-50%, 0);
+    }
+    100%{
+      transform: translate(-50%, -150%);
+    }
+  }
+
+ 
+
+  @keyframes animateMan1 {
+    0%{
+      transform: translate(0, 0);
+    }
+    50%{
+      transform: translate(-50%, 0);
+    }
+    100%{
+      transform: translate(-50%, -90%);
+    }
+  }
